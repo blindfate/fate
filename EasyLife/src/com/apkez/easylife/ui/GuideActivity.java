@@ -21,10 +21,11 @@ import com.apkez.easylife.utils.Constant;
 import com.apkez.easylife.utils.PreferencesUtil;
 
 /**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- * 
- * @see SystemUiHider
+ * @ClassName: GuideActivity
+ * @Description: 欢迎页面，引导页
+ * @author Adam
+ * @date 2013-11-11 下午11:53:46
+ *
  */
 public class GuideActivity extends BasicActivity {
 
