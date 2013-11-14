@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <style name="tab_item_style">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">@color/selector_main_tab_text_color</item>
+        <item name="android:paddingBottom">2.0dp</item>
+    </style>
+    
     <style name="style_18_BEBEBE_BOLD">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>

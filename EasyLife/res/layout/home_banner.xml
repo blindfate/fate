@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/banner_default_image"
+    >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/dotGroups"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <ImageView
+                    android:id="@+id/imgPoint0"
+                    style="@style/slide"
+                    android:background="@drawable/slide_adv_selected" />
+
+                <ImageView
+                    android:id="@+id/imgPoint1"
+                    style="@style/slide"
+                    android:background="@drawable/slide_adv_normal" />
+
+                <ImageView
+                    android:id="@+id/imgPoint2"
+                    style="@style/slide"
+                    android:background="@drawable/slide_adv_normal" />
+
+                <ImageView
+                    android:id="@+id/imgPoint3"
+                    style="@style/slide"
+                    android:background="@drawable/slide_adv_normal" />
+
+                <ImageView
+                    android:id="@+id/imgPoint4"
+                    style="@style/slide"
+                     android:background="@drawable/slide_adv_normal" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/serachGroups"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_banner_bg">
+                
+            <ImageView
+                android:id="@+id/searchBarImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/shop_goods_search"
+                android:scaleType="fitXY" />
+            <EditText
+                android:id="@+id/searchBarEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_toLeftOf="@id/searchBarImg"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="@string/please_input_product_name"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/searchBarLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/searchBarEdt"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bar_line"
+                android:scaleType="fitXY" />
+            
+            <ImageView
+                android:id="@+id/searchBarIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/searchBarLine"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/i"
+                android:scaleType="fitXY" />
+            
+        </RelativeLayout>
+        
+    </RelativeLayout>
+</FrameLayout>

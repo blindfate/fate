@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.apkez.easylife.ui.MainActivity;
+import com.apkez.easylife.ui.PendingMainActivity;
 
 public class GuidePagerAdapter extends PagerAdapter {
 	

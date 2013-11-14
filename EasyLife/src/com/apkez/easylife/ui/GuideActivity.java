@@ -150,7 +150,7 @@ public class GuideActivity extends BasicActivity {
 	
 	/*进入首页*/
 	private void startHome(){
-		Intent intent = new Intent(GuideActivity.this, MainActivity.class);
+		Intent intent = new Intent(GuideActivity.this, PendingMainActivity.class);
 		startActivity(intent);
 		finish();
 	}

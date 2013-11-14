@@ -11,6 +11,10 @@
 	<string name="my_favorite_title">收藏夹</string>
 	<string name="recent_browse_title">最近浏览</string>
 	<string name="menu_home">主页</string>
+	<string name="main_home">首页</string>
+	<string name="main_category">类目</string>
+	<string name="main_cart">购物车</string>
+	<string name="main_mine">我</string>
 	<string name="menu_search">搜索</string>
 	<string name="menu_favorites">收藏夹</string>
 	<string name="menu_myorder">我的订单</string>
@@ -30,7 +34,7 @@
 	<string name="groundingTime">上架时间</string>
 	<string name="goback">返回</string>
 	<string name="prod_detail">商品详情</string>
-	<string name="shopcar">加入购物车</string>
+	<string name="shopcar">购物车</string>
 	<string name="collect">收藏</string>
 	<string name="prom_bulletin">促销快报</string>
 	<string name="help_title">帮助中心</string>
